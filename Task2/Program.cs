@@ -24,9 +24,9 @@ void Task1()
   Console.WriteLine($"Сумма элементов в промежутке от M до N равна: {res}");
 }
 
-int ReadInt(string argument1)
+int ReadInt(string argument)
 {
-  Console.Write($"{argument1}");
+  Console.Write($"{argument}");
   int number;
 
   while(!int.TryParse(Console.ReadLine(), out number))
